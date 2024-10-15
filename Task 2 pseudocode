@@ -1,0 +1,10 @@
+FUNCTION factorial(n)
+    IF n is 0 or n is 1 THEN
+        RETURN 1
+    ELSE
+        set result = 1
+        FOR i FROM 2 TO n DO
+            result = result * i
+        END FOR
+        RETURN result
+END FUNCTION
